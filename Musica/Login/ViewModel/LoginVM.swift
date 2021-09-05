@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import FirebaseAuth
 
 class LoginVM: ObservableObject {
 
@@ -16,7 +15,7 @@ class LoginVM: ObservableObject {
 
   func validate() {
     if isValidEmailAddress(emailAddressString: email) {
-      if password.count > 5 {
+      if isValidPass(password: password) {
         state = .loading
         signIn()
       }else {
@@ -36,6 +35,10 @@ class LoginVM: ObservableObject {
         self.state = .error(msg: Constants.shared.somethingWrong)
       }
     }
+  }
+
+  func isValidPass(password: String) -> Bool {
+    return password.count > 5
   }
 
   func isValidEmailAddress(emailAddressString: String) -> Bool {

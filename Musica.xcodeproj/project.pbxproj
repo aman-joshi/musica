@@ -14,6 +14,7 @@
 		7150FF3C26E49761006DCE84 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7150FF3B26E49761006DCE84 /* Constants.swift */; };
 		7150FF4126E4A1F4006DCE84 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7150FF4026E4A1F4006DCE84 /* Loader.swift */; };
 		7150FF4726E4A3DE006DCE84 /* LoadinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7150FF4626E4A3DE006DCE84 /* LoadinView.swift */; };
+		7150FF4C26E510B9006DCE84 /* LoginServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7150FF4B26E510B9006DCE84 /* LoginServiceTests.swift */; };
 		7163CE8626D9EA2800B4E835 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7163CE8526D9EA2800B4E835 /* UserManager.swift */; };
 		717CDE7B26C8BB3500306CBE /* MusicaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717CDE7A26C8BB3500306CBE /* MusicaApp.swift */; };
 		717CDE7D26C8BB3500306CBE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717CDE7C26C8BB3500306CBE /* ContentView.swift */; };
@@ -55,6 +56,7 @@
 		7150FF3B26E49761006DCE84 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		7150FF4026E4A1F4006DCE84 /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
 		7150FF4626E4A3DE006DCE84 /* LoadinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadinView.swift; sourceTree = "<group>"; };
+		7150FF4B26E510B9006DCE84 /* LoginServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginServiceTests.swift; sourceTree = "<group>"; };
 		7163CE8526D9EA2800B4E835 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		717CDE7726C8BB3500306CBE /* Musica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Musica.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		717CDE7A26C8BB3500306CBE /* MusicaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicaApp.swift; sourceTree = "<group>"; };
@@ -194,6 +196,7 @@
 			children = (
 				717CDE8C26C8BB3B00306CBE /* MusicaTests.swift */,
 				717CDE8E26C8BB3B00306CBE /* Info.plist */,
+				7150FF4B26E510B9006DCE84 /* LoginServiceTests.swift */,
 			);
 			path = MusicaTests;
 			sourceTree = "<group>";
@@ -541,6 +544,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				717CDE8D26C8BB3B00306CBE /* MusicaTests.swift in Sources */,
+				7150FF4C26E510B9006DCE84 /* LoginServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
