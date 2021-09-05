@@ -8,10 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        Text("Hello, world!")
-            .padding()
+
+  var body: some View {
+    if UserManager.shared.isLoggedIn {
+      HomeView()
+    }else {
+      LoginView()
     }
+  }
 }
 
 struct ContentView_Previews: PreviewProvider {
